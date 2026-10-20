@@ -12,7 +12,7 @@
         <ul>
             <li><a href="#home">Домашняя</a></li>
             <li> <a href="#recipes">Рецепты</a></li>
-            <li> <a href="table.html">Таблица КБЖУ</a></li>
+            <li> <a href="#table">Таблица КБЖУ</a></li>
         </ul>
     </nav>
 </header>
@@ -155,6 +155,53 @@
                     <img src="images/k.jpg" alt="фото котлет">
             </div>
         </section>
+        <br/>
+       <!-- Изменили класс секции, чтобы не было путаницы -->
+<section id="table" class="table-section">
+    <h2>Таблица КБЖУ</h2>
+    <div class="table-responsive">
+        <!-- ОБЯЗАТЕЛЬНО ДОБАВЛЯЕМ КЛАСС СЮДА -->
+        <table class="table">
+            <thead> <!-- Добавлен для корректной работы селекторов -->
+                <tr>
+                    <th>№</th>
+                    <th>Рецепт</th>
+                    <th>Калории (100гр)</th> <!-- Поправили опечатку ;) -->
+                    <th>Белки</th>
+                    <th>Жиры</th>
+                    <th>Углеводы</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Борщ</td>
+                    <td>38</td>
+                    <td>2.4</td>
+                    <td>1.1</td>
+                    <td>3.1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Пюре</td>
+                    <td>113</td>
+                    <td>2.2</td>
+                    <td>5.0</td>
+                    <td>14.9</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Котлеты</td>
+                    <td>292</td>
+                    <td>15.3</td>
+                    <td>23.2</td>
+                    <td>5.5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>            
+</section>
+
     </main>
 </body>
 </html>
