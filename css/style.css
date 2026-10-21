@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+html {
+     
+    scroll-padding-top: 120px; 
+    scroll-behavior: smooth; 
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -12,7 +18,12 @@ body {
 }
 
 .site-header {
-    padding: 20px;
+    position: fixed;
+    top: 0;          
+    left: 0; 
+    width: 100%;    
+    z-index: 1000;         
+    padding: 15px;
     background-color: #f4f4f4;
     border-bottom: 1px solid #dddddd;
 }
@@ -21,6 +32,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 110px;
 }
 
 .main-nav ul {
